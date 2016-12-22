@@ -15,5 +15,8 @@
             "email": "alex.lahtarin@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": { "Ozean12\\WebTranslateItBundle\\": "" }
+    },
     "minimum-stability": "stable"
 }
