@@ -1,0 +1,22 @@
+services:
+  ozean12.webtranslateit.repository.service:
+    class: Ozean12\WebTranslateItBundle\Service\WebTranslateItRepository
+    arguments:
+      - # read_key
+      - # base_url
+      - # guzzle client
+      - "@jms_serializer"
+
+  ozean12.webtranslateit.file.service:
+    class: Ozean12\WebTranslateItBundle\Service\WebTranslateItFileService
+    arguments:
+      - "@ozean12.webtranslateit.repository.service"
+
+  ozean12.webtranslateit.pull.command:
+    class: Ozean12\WebTranslateItBundle\Command\TranslationsPullCommand
+    arguments:
+      - "@ozean12.webtranslateit.repository.service"
+      - "@ozean12.webtranslateit.file.service"
+      - # pull_path
+    tags:
+      - {name: console.command}
