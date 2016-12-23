@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ozean12/WebTranslateItBundle.svg?branch=master)](https://travis-ci.org/ozean12/WebTranslateItBundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ozean12/WebTranslateItBundle/badges/quality-score.png?b=add-travis)](https://scrutinizer-ci.com/g/ozean12/WebTranslateItBundle/?branch=add-travis)
-
+[![Code Coverage](https://scrutinizer-ci.com/g/ozean12/WebTranslateItBundle/badges/coverage.png?b=add-travis)](https://scrutinizer-ci.com/g/ozean12/WebTranslateItBundle/?branch=add-travis)
 [![Latest Stable Version](https://poser.pugx.org/ozean12/webtranslateit/v/stable.png)](https://packagist.org/packages/ozean12/webtranslateit)
 [![Total Downloads](https://poser.pugx.org/ozean12/webtranslateit/downloads.png)](https://packagist.org/packages/ozean12/webtranslateit)
 
