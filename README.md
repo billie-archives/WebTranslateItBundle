@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ozean12/WebTranslateItBundle.svg?branch=master)](https://travis-ci.org/ozean12/WebTranslateItBundle)
+
 # Ozean12WebTranslateItBundle
 A Symfony 2 / Symfony 3 bundle which allows you to integrate the [WebTranslateIt](https://webtranslateit.com) translation service.
 ## Installation

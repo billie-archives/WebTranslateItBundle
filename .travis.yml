@@ -6,6 +6,6 @@ php:
   - '7.1'
   - nightly
   
-install: composer install
+install: composer install -vvv
   
 script: phpunit --configuration=Tests/phpunit.xml.dist Tests  

@@ -13,6 +13,10 @@
         {
             "name": "alahtarin",
             "email": "alex.lahtarin@gmail.com"
+        },
+        {
+            "name": "Artem Demchenkov",
+            "email": "artem@ozean12.com"
         }
     ],
     "autoload": {
