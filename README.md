@@ -20,6 +20,7 @@ public function registerBundles()
         // ...
         new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(), // if not already enabled
         new EightPoints\Bundle\GuzzleBundle\GuzzleBundle(), // if not already enabled
+        new JMS\SerializerBundle\JMSSerializerBundle(), // if not already enabled
         new Ozean12\WebTranslateItBundle\Ozean12WebTranslateItBundle(),
     ];
     
