@@ -104,7 +104,7 @@ class WebTranslateItFileServiceTest extends \PHPUnit_Framework_TestCase
     /**
      * @return array
      */
-    public function shouldBeUpdatedDataProvider(): array
+    public function shouldBeUpdatedDataProvider()
     {
         return [
             ['today', 'today', 'hello', 'hello', false, 'Everything equal - skip'],
@@ -141,7 +141,7 @@ class WebTranslateItFileServiceTest extends \PHPUnit_Framework_TestCase
     /**
      * @return string
      */
-    private function getTranslationDirectory(): string
+    private function getTranslationDirectory()
     {
         return __DIR__.'/translations';
     }
@@ -149,7 +149,7 @@ class WebTranslateItFileServiceTest extends \PHPUnit_Framework_TestCase
     /**
      * @return string
      */
-    private function getPullFileContent(): string
+    private function getPullFileContent()
     {
         return 'hello: Hello';
     }
@@ -157,7 +157,7 @@ class WebTranslateItFileServiceTest extends \PHPUnit_Framework_TestCase
     /**
      * @return ProjectFileDTO
      */
-    private function getProjectFileDTO(): ProjectFileDTO
+    private function getProjectFileDTO()
     {
         $file = new ProjectFileDTO();
 
