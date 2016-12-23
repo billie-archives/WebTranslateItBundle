@@ -46,7 +46,7 @@ class TranslationsPullCommand extends Command
     public function __construct(
         TranslationRepositoryInterface $translationRepository,
         FileServiceInterface $fileService,
-        string $translationsDirectory
+        $translationsDirectory
     ) {
         $this->translationRepository = $translationRepository;
         $this->fileService = $fileService;
@@ -133,8 +133,8 @@ class TranslationsPullCommand extends Command
      */
     private function processFile(
         ProjectFileDTO $projectFile,
-        int $currentFileCount,
-        int $totalFilesCount,
+        $currentFileCount,
+        $totalFilesCount,
         OutputInterface $output
     ) {
         $filePath = sprintf('%s/%s', $this->translationDirectory, $projectFile->getName());

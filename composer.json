@@ -4,6 +4,8 @@
     "type": "library",
     "require": {
         "eightpoints/guzzle-bundle": ">=4.0.0",
+        "doctrine/collections": "v1.3.0",
+        "jms/serializer-bundle": "^1.1",
         "symfony/console": "^2.5 || ^3.0"
     },
     "require-dev": {
@@ -13,6 +15,10 @@
         {
             "name": "alahtarin",
             "email": "alex.lahtarin@gmail.com"
+        },
+        {
+            "name": "Artem Demchenkov",
+            "email": "artem@ozean12.com"
         }
     ],
     "autoload": {

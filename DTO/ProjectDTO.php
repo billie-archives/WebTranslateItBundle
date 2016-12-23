@@ -44,7 +44,7 @@ class ProjectDTO
      *
      * @return ProjectDTO
      */
-    public function setId($id): ProjectDTO
+    public function setId($id)
     {
         $this->id = $id;
 
@@ -64,7 +64,7 @@ class ProjectDTO
      *
      * @return ProjectDTO
      */
-    public function setName($name): ProjectDTO
+    public function setName($name)
     {
         $this->name = $name;
 
