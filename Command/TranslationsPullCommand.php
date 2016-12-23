@@ -133,8 +133,8 @@ class TranslationsPullCommand extends Command
      */
     private function processFile(
         ProjectFileDTO $projectFile,
-        int $currentFileCount,
-        int $totalFilesCount,
+        $currentFileCount,
+        $totalFilesCount,
         OutputInterface $output
     ) {
         $filePath = sprintf('%s/%s', $this->translationDirectory, $projectFile->getName());
