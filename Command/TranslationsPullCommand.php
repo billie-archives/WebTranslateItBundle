@@ -46,7 +46,7 @@ class TranslationsPullCommand extends Command
     public function __construct(
         TranslationRepositoryInterface $translationRepository,
         FileServiceInterface $fileService,
-        string $translationsDirectory
+        $translationsDirectory
     ) {
         $this->translationRepository = $translationRepository;
         $this->fileService = $fileService;

@@ -80,12 +80,12 @@ class WebTranslateItFileServiceTest extends \PHPUnit_Framework_TestCase
      * @param string $message
      */
     public function testShouldBeUpdated(
-        string $localTimestamp,
-        string $remoteTimestamp,
-        string $localContent,
-        string $remoteContent,
-        bool $expectedResult,
-        string $message
+        $localTimestamp,
+        $remoteTimestamp,
+        $localContent,
+        $remoteContent,
+        $expectedResult,
+        $message
     ) {
         $this->service->prepare($this->getTranslationDirectory());
         $filePath = sprintf('%s/%s', $this->getTranslationDirectory(), $this->getProjectFileDTO()->getName());
