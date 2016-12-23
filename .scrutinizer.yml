@@ -12,4 +12,4 @@ build:
       version: 5.5.25
   tests:
     override:
-      - phpunit --configuration=./phpunit.xml.dist Tests
+      - phpunit --configuration=./phpunit.xml.dist --coverage-clover=./clover.xml Tests
