@@ -38,7 +38,7 @@ class ProjectFileDTO
     private $updatedAt;
 
     /**
-     * @var int
+     * @var string
      *
      * @Serializer\Type("string")
      */
